@@ -1,0 +1,284 @@
+{
+  "extensionName": {
+    "message": "History Cleaner",
+    "description": "Name of extension"
+  },
+  "extensionDescription": {
+    "message": "指定された日数より古い履歴を削除します。",
+    "description": "Description of extension"
+  },
+  "optionDaysText": {
+    "message": "履歴を保持する日数",
+    "description": ""
+  },
+  "optionDaysInfo": {
+    "message": "指定した日数前の深夜0時より古い履歴を削除します。動作が無効またはすべて削除に設定されている場合は効果ありません。（デフォルトは0）",
+    "description": ""
+  },
+  "optionIdleLengthText": {
+    "message": "アイドル時間",
+    "description": ""
+  },
+  "optionIdleLengthInfo": {
+    "message": "ブラウザがアイドル状態になってからトリガーを発生させるまでの時間（秒）。（デフォルト値：60、最小値：15）",
+    "description": ""
+  },
+  "optionTimerIntervalText": {
+    "message": "タイマー間隔",
+    "description": ""
+  },
+  "optionTimerIntervalInfo": {
+    "message": "トリガー間隔（分）。（初期値: 1440分（24時間）、最小値 1）",
+    "description": ""
+  },
+  "optionDeleteModeText": {
+    "message": "自動起動設定",
+    "description": ""
+  },
+  "optionDeleteModeInfo": {
+    "message": "拡張機能がアイドル時、ブラウザ起動時、または設定された間隔で起動するかどうか。（デフォルトはアイドル時）",
+    "description": ""
+  },
+  "optionDeleteModeInfoManifestv3": {
+    "message": "拡張機能がブラウザ起動時か設定間隔で起動するか。（デフォルトはタイマー）",
+    "description": ""
+  },
+  "optionDeleteModeIdle": {
+    "message": "アイドル",
+    "description": ""
+  },
+  "optionDeleteModeStartup": {
+    "message": "起動",
+    "description": ""
+  },
+  "optionDeleteModeAlarm": {
+    "message": "タイマー",
+    "description": ""
+  },
+  "optionNotificationsText": {
+    "message": "通知を表示",
+    "description": ""
+  },
+  "optionNotificationsInfo": {
+    "message": "以下のボタンから通知の許可をリクエストし、その後「通知を表示」オプションを設定して、履歴が削除された際の通知を有効にしてください。",
+    "description": ""
+  },
+  "optionNotificationsInfoNew": {
+    "message": "履歴が削除された際に通知を表示するかどうか。",
+    "description": ""
+  },
+  "optionNotificationsCheckbox": {
+    "message": "削除時に通知を表示する",
+    "description": ""
+  },
+  "optionDownloadsText": {
+    "message": "ダウンロード",
+    "description": ""
+  },
+  "optionDownloadsInfo": {
+    "message": "ダウンロード履歴を消去",
+    "description": ""
+  },
+  "optionDownloadsCheckbox": {
+    "message": "ダウンロード履歴を消去",
+    "description": ""
+  },
+  "optionIconText": {
+    "message": "アイコン",
+    "description": ""
+  },
+  "optionIconInfo": {
+    "message": "拡張機能のアイコンを選択してください（Firefoxではデフォルトでテーマアイコンが使用されます。Chromeではデフォルトで円形グラデーションアイコンが使用されます。Chromeではテーマアイコンはサポートされていません）",
+    "description": ""
+  },
+  "optionIcon_theme": {
+    "message": "テーマアイコン",
+    "description": ""
+  },
+  "optionIcon_circle": {
+    "message": "サークル",
+    "description": ""
+  },
+  "optionIcon_square": {
+    "message": "四角",
+    "description": ""
+  },
+  "optionIcon_circle_gradient": {
+    "message": "丸いグラデーション",
+    "description": ""
+  },
+  "optionIcon_square_gradient": {
+    "message": "正方形のグラデーション",
+    "description": ""
+  },
+  "manualDelete": {
+    "message": "今すぐ履歴を削除",
+    "description": ""
+  },
+  "manualDeleteInfo": {
+    "message": "履歴を手動で削除するには、下のボタンを押してください。",
+    "description": ""
+  },
+  "sync": {
+    "message": "Sync",
+    "description": ""
+  },
+  "syncUp": {
+    "message": "設定ファイルのアップロード",
+    "description": ""
+  },
+  "syncDown": {
+    "message": "同期設定ファイルをダウンロード",
+    "description": ""
+  },
+  "exportConfig": {
+    "message": "設定をファイルにエクスポート",
+    "description": ""
+  },
+  "importConfig": {
+    "message": "設定をファイルからインポート",
+    "description": ""
+  },
+  "notificationRequest": {
+    "message": "通知許可のリクエスト",
+    "description": ""
+  },
+  "notificationRevoke": {
+    "message": "通知許可の取り消し",
+    "description": ""
+  },
+  "notificationEnabled": {
+    "message": "通知が有効になりました！",
+    "description": ""
+  },
+  "notificationEnabledBody": {
+    "message": "履歴が削除されると通知が表示されるようになります",
+    "description": ""
+  },
+  "historyDeletedNotification": {
+    "message": "履歴が削除されました",
+    "description": ""
+  },
+  "historyDeletedNotificationBody": {
+    "message": " $END$ 以前の履歴は $NOW$に削除されました。",
+    "description": "",
+    "placeholders": {
+      "end": {
+        "content": "$1",
+        "example": ""
+      },
+      "now": {
+        "content": "$2",
+        "example": ""
+      }
+    }
+  },
+  "historyAllDeleted": {
+    "message": "すべての歴史は$NOW$に削除された。",
+    "description": "",
+    "placeholders": {
+      "now": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "optionBehaviorText": {
+    "message": "拡張機能の動作",
+    "description": ""
+  },
+  "optionBehaviorInfo": {
+    "message": "拡張機能が設定された際に削除すべき履歴を決定します。",
+    "description": ""
+  },
+  "behaviorDisable": {
+    "message": "無効",
+    "description": ""
+  },
+  "behaviorDays": {
+    "message": "指定した日数より古い履歴を削除する",
+    "description": ""
+  },
+  "behaviorAll": {
+    "message": "すべての履歴を削除する",
+    "description": ""
+  },
+  "optionFilterHistoryText": {
+    "message": "フィルターの履歴",
+    "description": ""
+  },
+  "optionFilterHistoryInfo": {
+    "message": "特定のサイトを削除対象から除外するかどうか。有効にした場合、削除された履歴項目の総数がカウントされます。",
+    "description": ""
+  },
+  "optionFilterHistoryCheckbox": {
+    "message": "削除対象からサイトを除外する",
+    "description": ""
+  },
+  "optionFilterListText": {
+    "message": "フィルター一覧",
+    "description": ""
+  },
+  "optionFilterListInfo": {
+    "message": "削除対象外となるサイトのリスト。この設定を有効にするには、フィルタ履歴を有効にする必要があります。各行には削除対象から除外するホスト名を記載してください。",
+    "description": ""
+  },
+  "statisticsSection": {
+    "message": "統計",
+    "description": ""
+  },
+  "optionsSection": {
+    "message": "オプション",
+    "description": ""
+  },
+  "syncSection": {
+    "message": "Sync",
+    "description": ""
+  },
+  "extrasSection": {
+    "message": "追加情報",
+    "description": ""
+  },
+  "statisticsLastRun": {
+    "message": "履歴は最後に削除されました",
+    "description": ""
+  },
+  "statisticsNextRunDisable": {
+    "message": "履歴は自動的に消去されません。",
+    "description": ""
+  },
+  "statisticsNextRunIdle": {
+    "message": "ブラウザがアイドル状態になると履歴が消去されます。",
+    "description": ""
+  },
+  "statisticsNextRunStartup": {
+    "message": "ブラウザ起動時に履歴は消去されます。",
+    "description": ""
+  },
+  "statisticsNextRunTimer": {
+    "message": "履歴は $TIMER$時に消去されます",
+    "description": "",
+    "placeholders": {
+      "timer": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "statisticsDeleteCount": {
+    "message": "削除された履歴エントリの総数",
+    "description": ""
+  },
+  "statisticsDeleteCountWarning": {
+    "message": "(統計を追跡するには履歴フィルタリングを有効にする必要があります)",
+    "description": ""
+  },
+  "lastRunNever": {
+    "message": "履歴はまだ消去されていません。",
+    "description": ""
+  },
+  "resetStatistics": {
+    "message": "統計の削除",
+    "description": ""
+  }
+}
